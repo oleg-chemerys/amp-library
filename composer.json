@@ -10,6 +10,12 @@
     "license": "Apache-2.0",
     "keywords": ["Drupal", "AMP", "mobile"],
     "homepage": "https://github.com/Lullabot/amp-library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/oleg-chemerys/fast-image-size"
+        }
+    ],
     "require" : {
         "php" : ">=5.5.0",
         "querypath/QueryPath": ">=3.0.4",
@@ -27,11 +33,5 @@
         "php" : ">=5.5.0",
         "phpunit/phpunit": "4.8.*",
         "symfony/console": "^2.7.0"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/oleg-chemerys/fast-image-size"
-        }
-    ]
+    }
 }
