@@ -33,5 +33,6 @@
             "type": "vcs",
             "url": "https://github.com/oleg-chemerys/fast-image-size"
         }
-    ]
+    ],
+    "version": "1.0.0"
 }
