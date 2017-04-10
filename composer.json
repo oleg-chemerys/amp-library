@@ -14,7 +14,7 @@
         "php" : ">=5.5.0",
         "querypath/QueryPath": ">=3.0.4",
         "sebastian/diff": "~1.2",
-        "oleg-chemerys/fast-image-size": "master",
+        "oleg-chemerys/fast-image-size": "dev-ssl-ommit",
         "masterminds/html5": "^2.2.0",
         "sabberworm/php-css-parser": "^8.0.0",
         "guzzlehttp/guzzle": "~6.1"
@@ -27,5 +27,11 @@
         "php" : ">=5.5.0",
         "phpunit/phpunit": "4.8.*",
         "symfony/console": "^2.7.0"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/oleg-chemerys/fast-image-size"
+        }
+    ]
 }
